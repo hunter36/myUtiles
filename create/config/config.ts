@@ -315,6 +315,35 @@ export default defineConfig({
               ],
             },
             {
+              name: 'ownComponent',
+              icon: 'highlight',
+              path: '/ownComponent',
+              routes: [
+                {
+                  path: '/',
+                  redirect: '/ownComponent/guide',
+                },
+                {
+                  name: 'guide',
+                  icon: 'smile',
+                  path: '/ownComponent/guide',
+                  component: './ownComponent/guide',
+                },
+                {
+                  name: 'dataBaseForm',
+                  icon: 'smile',
+                  path: '/ownComponent/dataBaseForm',
+                  component: './ownComponent/dataBaseForm',
+                },
+                {
+                  name: 'dataBaseList',
+                  icon: 'smile',
+                  path: '/ownComponent/dataBaseList',
+                  component: './ownComponent/dataBaseList',
+                },
+              ],
+            },
+            {
               component: '404',
             },
           ],

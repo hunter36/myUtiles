@@ -49,4 +49,9 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  // new
+  'menu.ownComponent': '实用小组件',
+  'menu.ownComponent.guide': '导航',
+  'menu.ownComponent.dataBaseForm': '数据驱动表单',
+  'menu.ownComponent.dataBaseList': '数据驱动表格',
 };
